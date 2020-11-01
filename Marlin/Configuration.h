@@ -128,7 +128,7 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_BTT_SKR_V1_3
+  #define MOTHERBOARD BOARD_BTT_SKR_V1_4_TURBO
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
@@ -489,7 +489,7 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // CR-10S
+  // DR-10S
   #define DEFAULT_Kp 24.26
   #define DEFAULT_Ki 2.45
   #define DEFAULT_Kd 60.14
